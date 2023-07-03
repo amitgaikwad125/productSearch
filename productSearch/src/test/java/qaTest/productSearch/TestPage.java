@@ -24,7 +24,6 @@ public class TestPage extends BrowserSetup {
 		pm.selectMaterial("leather");
 		pm.selectBrand("titan");
 		pm.selectDiscount(25);
-		Thread.sleep(1000);
 		
 		// STEP 3: get the desired product
 		pm.selectProduct(5);
