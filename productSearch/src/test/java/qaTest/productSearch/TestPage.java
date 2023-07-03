@@ -13,7 +13,7 @@ public class TestPage extends BrowserSetup {
 	}
 
 	@Test
-	public void productSearchTest() throws InterruptedException{
+	public void productSearchTest(){
 
 		// STEP 1:search for the product
 		PomPage pm = new PomPage(driver);
